@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.mrvn.Evaluacion1.MainActivity">
+
+    <Button
+        android:id="@+id/btnNuevo"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="Nuevo estudiante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnLista"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:text="Lista estudiantes"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnMisDatos"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Mis Datos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
